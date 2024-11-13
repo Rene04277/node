@@ -1,0 +1,17 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app hosted on Azure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"   // Azure wird dies verwenden, um die App zu starten
+  },
+  "dependencies": {
+    "express": "^4.17.1"        // Beispiel, falls du Express verwendest
+  },
+  "engines": {
+    "node": "18.x"               // Sicherstellen, dass die Node-Version korrekt gesetzt ist
+  },
+  "author": "",
+  "license": "ISC"
+}
